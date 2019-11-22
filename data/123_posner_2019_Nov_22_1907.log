@@ -1,0 +1,200 @@
+12.1319 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+13.0862 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019C18601EF0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019C187596D8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.0863 	EXP 	window1: recordFrameIntervals = False
+13.2523 	EXP 	window1: recordFrameIntervals = True
+13.4360 	EXP 	window1: recordFrameIntervals = False
+13.6317 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+13.6356 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/arrow-left.png', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+13.6386 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/circle_red.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+13.6389 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+13.6393 	EXP 	New trial (rep=0, index=0): {'targetX': 0.5, 'cueOri': 180, 'congr': 1, 'corrAns': 'right'}
+13.7385 	EXP 	cue: ori = 180.0
+13.7385 	EXP 	target: pos = array([0.5, 0. ])
+13.7385 	EXP 	fixation: autoDraw = True
+14.6363 	EXP 	cue: autoDraw = True
+14.7532 	EXP 	fixation: autoDraw = False
+15.1050 	DATA 	Keypress: right
+15.1367 	EXP 	cue: autoDraw = False
+15.1367 	EXP 	target: autoDraw = True
+15.6419 	EXP 	New trial (rep=0, index=1): {'targetX': -0.5, 'cueOri': 180, 'congr': 0, 'corrAns': 'left'}
+15.6450 	DATA 	Keypress: right
+15.6533 	EXP 	fixation: autoDraw = False
+15.6533 	EXP 	cue: autoDraw = False
+15.6533 	EXP 	target: autoDraw = False
+15.6533 	EXP 	cue: ori = 180.0
+15.6533 	EXP 	target: pos = array([-0.5,  0. ])
+15.6533 	EXP 	fixation: autoDraw = True
+16.6366 	EXP 	cue: autoDraw = True
+16.6533 	EXP 	fixation: autoDraw = False
+17.1367 	EXP 	cue: autoDraw = False
+17.1367 	EXP 	target: autoDraw = True
+17.5576 	EXP 	New trial (rep=0, index=2): {'targetX': -0.5, 'cueOri': 0, 'congr': 1, 'corrAns': 'left'}
+17.5600 	DATA 	Keypress: left
+17.5699 	EXP 	fixation: autoDraw = False
+17.5699 	EXP 	cue: autoDraw = False
+17.5699 	EXP 	target: autoDraw = False
+17.5699 	EXP 	cue: ori = 0.0
+17.5699 	EXP 	target: pos = array([-0.5,  0. ])
+17.5699 	EXP 	fixation: autoDraw = True
+18.5532 	EXP 	cue: autoDraw = True
+18.5698 	EXP 	fixation: autoDraw = False
+19.0536 	EXP 	cue: autoDraw = False
+19.0536 	EXP 	target: autoDraw = True
+19.3090 	EXP 	New trial (rep=0, index=3): {'targetX': -0.5, 'cueOri': 0, 'congr': 1, 'corrAns': 'left'}
+19.3115 	DATA 	Keypress: left
+19.3204 	EXP 	fixation: autoDraw = False
+19.3204 	EXP 	cue: autoDraw = False
+19.3204 	EXP 	target: autoDraw = False
+19.3204 	EXP 	cue: ori = 0.0
+19.3204 	EXP 	target: pos = array([-0.5,  0. ])
+19.3204 	EXP 	fixation: autoDraw = True
+20.3036 	EXP 	cue: autoDraw = True
+20.3203 	EXP 	fixation: autoDraw = False
+20.8031 	EXP 	cue: autoDraw = False
+20.8031 	EXP 	target: autoDraw = True
+21.0407 	DATA 	Keypress: left
+21.0580 	EXP 	New trial (rep=0, index=4): {'targetX': 0.5, 'cueOri': 180, 'congr': 1, 'corrAns': 'right'}
+21.0699 	EXP 	fixation: autoDraw = False
+21.0699 	EXP 	cue: autoDraw = False
+21.0699 	EXP 	target: autoDraw = False
+21.0699 	EXP 	cue: ori = 180.0
+21.0699 	EXP 	target: pos = array([0.5, 0. ])
+21.0699 	EXP 	fixation: autoDraw = True
+22.0532 	EXP 	cue: autoDraw = True
+22.0700 	EXP 	fixation: autoDraw = False
+22.5534 	EXP 	cue: autoDraw = False
+22.5534 	EXP 	target: autoDraw = True
+22.7577 	EXP 	New trial (rep=0, index=5): {'targetX': 0.5, 'cueOri': 0, 'congr': 0, 'corrAns': 'right'}
+22.7605 	DATA 	Keypress: right
+22.7700 	EXP 	fixation: autoDraw = False
+22.7700 	EXP 	cue: autoDraw = False
+22.7700 	EXP 	target: autoDraw = False
+22.7700 	EXP 	cue: ori = 0.0
+22.7700 	EXP 	target: pos = array([0.5, 0. ])
+22.7700 	EXP 	fixation: autoDraw = True
+23.7533 	EXP 	cue: autoDraw = True
+23.7703 	EXP 	fixation: autoDraw = False
+24.2531 	EXP 	cue: autoDraw = False
+24.2531 	EXP 	target: autoDraw = True
+24.3756 	EXP 	New trial (rep=0, index=6): {'targetX': -0.5, 'cueOri': 0, 'congr': 1, 'corrAns': 'left'}
+24.3777 	DATA 	Keypress: left
+24.3874 	EXP 	fixation: autoDraw = False
+24.3874 	EXP 	cue: autoDraw = False
+24.3874 	EXP 	target: autoDraw = False
+24.3874 	EXP 	cue: ori = 0.0
+24.3874 	EXP 	target: pos = array([-0.5,  0. ])
+24.3874 	EXP 	fixation: autoDraw = True
+25.3703 	EXP 	cue: autoDraw = True
+25.3867 	EXP 	fixation: autoDraw = False
+25.8692 	EXP 	target: autoDraw = True
+25.8868 	EXP 	cue: autoDraw = False
+26.0917 	EXP 	New trial (rep=0, index=7): {'targetX': 0.5, 'cueOri': 180, 'congr': 1, 'corrAns': 'right'}
+26.0937 	DATA 	Keypress: left
+26.1037 	EXP 	fixation: autoDraw = False
+26.1037 	EXP 	cue: autoDraw = False
+26.1037 	EXP 	target: autoDraw = False
+26.1037 	EXP 	cue: ori = 180.0
+26.1037 	EXP 	target: pos = array([0.5, 0. ])
+26.1037 	EXP 	fixation: autoDraw = True
+27.0858 	EXP 	cue: autoDraw = True
+27.1192 	EXP 	fixation: autoDraw = False
+27.5858 	EXP 	cue: autoDraw = False
+27.5858 	EXP 	target: autoDraw = True
+27.7913 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+27.7916 	EXP 	New trial (rep=0, index=0): {'targetX': 0.5, 'cueOri': 0, 'congr': 0, 'corrAns': 'right'}
+27.7937 	DATA 	Keypress: right
+27.8025 	EXP 	fixation: autoDraw = False
+27.8025 	EXP 	cue: autoDraw = False
+27.8025 	EXP 	target: autoDraw = False
+27.8025 	EXP 	cue: ori = 0.0
+27.8025 	EXP 	target: pos = array([0.5, 0. ])
+27.8025 	EXP 	fixation: autoDraw = True
+28.7860 	EXP 	cue: autoDraw = True
+28.8025 	EXP 	fixation: autoDraw = False
+29.2859 	EXP 	cue: autoDraw = False
+29.2859 	EXP 	target: autoDraw = True
+29.6566 	EXP 	New trial (rep=0, index=1): {'targetX': -0.5, 'cueOri': 0, 'congr': 1, 'corrAns': 'left'}
+29.6592 	DATA 	Keypress: right
+29.6691 	EXP 	fixation: autoDraw = False
+29.6691 	EXP 	cue: autoDraw = False
+29.6691 	EXP 	target: autoDraw = False
+29.6691 	EXP 	cue: ori = 0.0
+29.6691 	EXP 	target: pos = array([-0.5,  0. ])
+29.6691 	EXP 	fixation: autoDraw = True
+30.6525 	EXP 	cue: autoDraw = True
+30.6708 	EXP 	fixation: autoDraw = False
+31.1531 	EXP 	cue: autoDraw = False
+31.1531 	EXP 	target: autoDraw = True
+31.3081 	EXP 	New trial (rep=0, index=2): {'targetX': -0.5, 'cueOri': 0, 'congr': 1, 'corrAns': 'left'}
+31.3103 	DATA 	Keypress: left
+31.3196 	EXP 	fixation: autoDraw = False
+31.3196 	EXP 	cue: autoDraw = False
+31.3196 	EXP 	target: autoDraw = False
+31.3196 	EXP 	cue: ori = 0.0
+31.3196 	EXP 	target: pos = array([-0.5,  0. ])
+31.3196 	EXP 	fixation: autoDraw = True
+32.3031 	EXP 	cue: autoDraw = True
+32.3203 	EXP 	fixation: autoDraw = False
+32.8041 	EXP 	cue: autoDraw = False
+32.8041 	EXP 	target: autoDraw = True
+32.9564 	EXP 	New trial (rep=0, index=3): {'targetX': 0.5, 'cueOri': 180, 'congr': 1, 'corrAns': 'right'}
+32.9584 	DATA 	Keypress: left
+32.9699 	EXP 	fixation: autoDraw = False
+32.9699 	EXP 	cue: autoDraw = False
+32.9699 	EXP 	target: autoDraw = False
+32.9699 	EXP 	cue: ori = 180.0
+32.9699 	EXP 	target: pos = array([0.5, 0. ])
+32.9699 	EXP 	fixation: autoDraw = True
+33.9536 	EXP 	cue: autoDraw = True
+33.9695 	EXP 	fixation: autoDraw = False
+34.4524 	EXP 	cue: autoDraw = False
+34.4524 	EXP 	target: autoDraw = True
+34.6246 	EXP 	New trial (rep=0, index=4): {'targetX': 0.5, 'cueOri': 180, 'congr': 1, 'corrAns': 'right'}
+34.6273 	DATA 	Keypress: right
+34.6355 	EXP 	fixation: autoDraw = False
+34.6355 	EXP 	cue: autoDraw = False
+34.6355 	EXP 	target: autoDraw = False
+34.6355 	EXP 	cue: ori = 180.0
+34.6355 	EXP 	target: pos = array([0.5, 0. ])
+34.6355 	EXP 	fixation: autoDraw = True
+35.6199 	EXP 	cue: autoDraw = True
+35.6372 	EXP 	fixation: autoDraw = False
+36.1200 	EXP 	cue: autoDraw = False
+36.1200 	EXP 	target: autoDraw = True
+36.2239 	EXP 	New trial (rep=0, index=5): {'targetX': 0.5, 'cueOri': 180, 'congr': 1, 'corrAns': 'right'}
+36.2261 	DATA 	Keypress: right
+36.2357 	EXP 	fixation: autoDraw = False
+36.2357 	EXP 	cue: autoDraw = False
+36.2357 	EXP 	target: autoDraw = False
+36.2357 	EXP 	cue: ori = 180.0
+36.2357 	EXP 	target: pos = array([0.5, 0. ])
+36.2357 	EXP 	fixation: autoDraw = True
+37.2201 	EXP 	cue: autoDraw = True
+37.2366 	EXP 	fixation: autoDraw = False
+37.7199 	EXP 	cue: autoDraw = False
+37.7199 	EXP 	target: autoDraw = True
+37.7744 	EXP 	New trial (rep=0, index=6): {'targetX': -0.5, 'cueOri': 0, 'congr': 1, 'corrAns': 'left'}
+37.7772 	DATA 	Keypress: right
+37.7858 	EXP 	fixation: autoDraw = False
+37.7858 	EXP 	cue: autoDraw = False
+37.7858 	EXP 	target: autoDraw = False
+37.7858 	EXP 	cue: ori = 0.0
+37.7858 	EXP 	target: pos = array([-0.5,  0. ])
+37.7858 	EXP 	fixation: autoDraw = True
+38.7700 	EXP 	cue: autoDraw = True
+38.7869 	EXP 	fixation: autoDraw = False
+39.2700 	EXP 	cue: autoDraw = False
+39.2700 	EXP 	target: autoDraw = True
+39.3917 	EXP 	New trial (rep=0, index=7): {'targetX': -0.5, 'cueOri': 180, 'congr': 0, 'corrAns': 'left'}
+39.3943 	DATA 	Keypress: left
+39.4033 	EXP 	fixation: autoDraw = False
+39.4033 	EXP 	cue: autoDraw = False
+39.4033 	EXP 	target: autoDraw = False
+39.4033 	EXP 	cue: ori = 180.0
+39.4033 	EXP 	target: pos = array([-0.5,  0. ])
+39.4033 	EXP 	fixation: autoDraw = True
+40.3867 	EXP 	cue: autoDraw = True
+40.4033 	EXP 	fixation: autoDraw = False
+40.8872 	EXP 	cue: autoDraw = False
+40.8872 	EXP 	target: autoDraw = True
+41.0626 	EXP 	window1: mouseVisible = True

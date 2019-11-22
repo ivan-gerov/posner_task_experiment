@@ -1,0 +1,3 @@
+﻿targetX,cueOri,congr,corrAns,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,fixation.started,fixation.stopped,cue.started,cue.stopped,target.started,target.stopped,key_resp.keys,key_resp.corr,key_resp.rt,key_resp.started,key_resp.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+0.5,180,1,right,0,0,0,1,14.893838299962226,15.91001429996686,15.792994699964765,16.292952899995726,16.292952899995726,None,right,1,0.8603598000481725,16.292952899995726,None,,001,2019_Nov_22_1804,posner,3.2.4,60.067924809117976,
+-0.5,0,1,left,0,1,1,0,17.177244399965275,18.193530099990312,18.159445900004357,18.66101969999727,18.66101969999727,None,left,1,0.2424124000244774,18.66101969999727,None,,001,2019_Nov_22_1804,posner,3.2.4,60.067924809117976,

@@ -1,0 +1,22 @@
+5.8279 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+6.7834 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EDF3D0EF28>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EDF3A08C18>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.7835 	EXP 	window1: recordFrameIntervals = False
+6.9486 	EXP 	window1: recordFrameIntervals = True
+7.1325 	EXP 	window1: recordFrameIntervals = False
+7.3224 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+7.3258 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/arrow-left.png', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+7.3283 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/circle_red.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+7.3498 	EXP 	Imported conditions.csv as conditions, 2 conditions, 4 params
+7.3500 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+7.3502 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right')])
+7.4453 	EXP 	cue: ori = 180.0
+7.4453 	EXP 	target: pos = array([0.5, 0. ])
+7.4453 	EXP 	fixation: autoDraw = True
+8.3485 	EXP 	cue: autoDraw = True
+8.4489 	EXP 	fixation: autoDraw = False
+8.8485 	EXP 	cue: autoDraw = False
+8.8485 	EXP 	target: autoDraw = True
+9.2362 	DATA 	Mouse: Left button down, pos=(928,573)
+9.2366 	DATA 	Keypress: escape
+9.2693 	DATA 	Mouse:  Left button up, pos=(928,573)
+9.3576 	EXP 	window1: mouseVisible = True

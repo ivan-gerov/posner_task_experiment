@@ -1,0 +1,12 @@
+4.7662 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+5.7027 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DD11470F98>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DD1150D748>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7027 	EXP 	window1: recordFrameIntervals = False
+5.8685 	EXP 	window1: recordFrameIntervals = True
+6.0521 	EXP 	window1: recordFrameIntervals = False
+6.1812 	EXP 	Sound sound_1 set volume 1.000
+6.2073 	EXP 	Imported sound.csv as conditions, 2 conditions, 1 params
+6.2075 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+6.2077 	EXP 	New trial (rep=0, index=0): OrderedDict([('sound', 'lofi/happy.wav')])
+66.1876 	EXP 	New trial (rep=0, index=1): OrderedDict([('sound', 'lofi/buddy.wav')])
+77.5910 	DATA 	Keypress: escape
+78.0541 	EXP 	window1: mouseVisible = True
