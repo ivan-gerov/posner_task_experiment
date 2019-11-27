@@ -1,0 +1,76 @@
+3.6687 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+5.9597 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+6.8299 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000011149E18588>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000011149E92DA0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.8299 	EXP 	window1: recordFrameIntervals = False
+6.9962 	EXP 	window1: recordFrameIntervals = True
+7.1798 	EXP 	window1: recordFrameIntervals = False
+7.2098 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+7.2549 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/arrow-left.png', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+7.2580 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/circle_red.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+7.4089 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Please take a minute break', units='height', win=Window(...), wrapWidth=1)
+7.4092 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+7.6599 	EXP 	New trial (rep=0, index=0): None
+7.6700 	EXP 	Imported conditions.csv as conditions, 8 conditions, 5 params
+7.6703 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+7.6712 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('posner_type', 2)])
+7.7377 	EXP 	cue: ori = 0.0
+7.7377 	EXP 	target: pos = array([-0.5,  0. ])
+7.7377 	EXP 	fixation: autoDraw = True
+8.1629 	EXP 	cue: autoDraw = True
+8.8629 	EXP 	cue: autoDraw = False
+9.3628 	EXP 	target: autoDraw = True
+9.7143 	DATA 	Keypress: left
+9.7159 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('posner_type', 2)])
+9.7295 	EXP 	fixation: autoDraw = False
+9.7295 	EXP 	cue: autoDraw = False
+9.7295 	EXP 	target: autoDraw = False
+9.7295 	EXP 	cue: ori = 0.0
+9.7295 	EXP 	target: pos = array([-0.5,  0. ])
+9.7295 	EXP 	fixation: autoDraw = True
+10.2128 	EXP 	cue: autoDraw = True
+10.9129 	EXP 	cue: autoDraw = False
+11.4128 	EXP 	target: autoDraw = True
+11.7299 	DATA 	Keypress: left
+11.7310 	EXP 	New trial (rep=0, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('posner_type', 4)])
+11.7463 	EXP 	fixation: autoDraw = False
+11.7463 	EXP 	cue: autoDraw = False
+11.7463 	EXP 	target: autoDraw = False
+11.7463 	EXP 	cue: ori = 180.0
+11.7463 	EXP 	target: pos = array([-0.5,  0. ])
+11.7463 	EXP 	fixation: autoDraw = True
+12.2297 	EXP 	cue: autoDraw = True
+12.9297 	EXP 	cue: autoDraw = False
+13.4296 	EXP 	target: autoDraw = True
+13.8134 	DATA 	Keypress: left
+13.8145 	EXP 	New trial (rep=0, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('posner_type', 6)])
+13.8296 	EXP 	fixation: autoDraw = False
+13.8296 	EXP 	cue: autoDraw = False
+13.8296 	EXP 	target: autoDraw = False
+13.8296 	EXP 	cue: ori = 180.0
+13.8296 	EXP 	target: pos = array([0.5, 0. ])
+13.8296 	EXP 	fixation: autoDraw = True
+14.3132 	EXP 	cue: autoDraw = True
+15.0130 	EXP 	cue: autoDraw = False
+15.5130 	EXP 	target: autoDraw = True
+15.8646 	DATA 	Keypress: right
+15.8657 	EXP 	New trial (rep=0, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('posner_type', 2)])
+15.8796 	EXP 	fixation: autoDraw = False
+15.8796 	EXP 	cue: autoDraw = False
+15.8796 	EXP 	target: autoDraw = False
+15.8796 	EXP 	cue: ori = 0.0
+15.8796 	EXP 	target: pos = array([-0.5,  0. ])
+15.8796 	EXP 	fixation: autoDraw = True
+16.3629 	EXP 	cue: autoDraw = True
+17.0642 	EXP 	cue: autoDraw = False
+17.5629 	EXP 	target: autoDraw = True
+17.8469 	DATA 	Keypress: left
+17.8482 	EXP 	New trial (rep=0, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('posner_type', 6)])
+17.8630 	EXP 	fixation: autoDraw = False
+17.8630 	EXP 	cue: autoDraw = False
+17.8630 	EXP 	target: autoDraw = False
+17.8630 	EXP 	cue: ori = 180.0
+17.8630 	EXP 	target: pos = array([0.5, 0. ])
+17.8630 	EXP 	fixation: autoDraw = True
+18.3463 	EXP 	cue: autoDraw = True
+18.3632 	DATA 	Keypress: escape
+18.5307 	EXP 	window1: mouseVisible = True

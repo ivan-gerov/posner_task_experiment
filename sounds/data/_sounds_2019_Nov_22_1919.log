@@ -1,9 +1,0 @@
-4.7792 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
-5.7439 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000266C85AFF28>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000266C84CC6D8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
-5.7440 	EXP 	window1: recordFrameIntervals = False
-5.9097 	EXP 	window1: recordFrameIntervals = True
-6.0936 	EXP 	window1: recordFrameIntervals = False
-6.2740 	EXP 	Sound sound_1 set volume 1.000
-45.3976 	DATA 	Mouse: Left button down, pos=(1123,777)
-45.4981 	DATA 	Mouse:  Left button up, pos=(1123,777)
-68.1184 	EXP 	window1: mouseVisible = True
