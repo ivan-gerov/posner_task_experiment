@@ -1,4 +1,4 @@
-﻿#!.env/scripts python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.1.5),
@@ -27,9 +27,6 @@ import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
 
-#FIXME nreps on Posner = getNumberOfPosnerReps() / 8
-#FIXME All Filenames = FILE_NAME_STEM -> from organizeParticipantSessionFolder()
-#FIXME Remove each origin path
 
 ### Start of Custom Functions ###
 
@@ -40,9 +37,7 @@ os.chdir(_thisDir)
 _thisDir = os.path.relpath(_thisDir)
 
 # Seting the Posner task repetitions and time per one attention task block
-
-# *Note - In seconds
-TIME_PER_ATTENTION_BLOCK = 15  # 1 posner = 2.7 seconds
+TIME_PER_ATTENTION_BLOCK = 4 * 60  # 240 seconds, 1 posner = 2.7 seconds
 
 
 def getNumberOfPosnerReps(TIME_PER_ATTENTION_BLOCK=TIME_PER_ATTENTION_BLOCK):
@@ -57,9 +52,7 @@ def getNumberOfPosnerReps(TIME_PER_ATTENTION_BLOCK=TIME_PER_ATTENTION_BLOCK):
     """
     POSNER_TRIAL = 2.7
     numOfReps = np.floor(TIME_PER_ATTENTION_BLOCK / POSNER_TRIAL)
-
-    print(numOfReps)
-    return numOfReps
+    return 8
 
 
 # Getting the sound conditions to be random

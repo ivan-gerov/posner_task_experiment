@@ -27,6 +27,7 @@ matplotlib==3.1.2
 moviepy==1.0.1
 msgpack==0.6.2
 msgpack-numpy==0.4.4.3
+msgpack-python==0.5.6
 numexpr==2.7.0
 numpy==1.17.4
 opencv-python==4.1.2.30
@@ -35,7 +36,7 @@ pandas==0.25.3
 Pillow==6.2.1
 proglog==0.1.9
 psutil==5.6.5
-PsychoPy==3.2.3
+PsychoPy==3.1.5
 pycodestyle==2.5.0
 pycparser==2.19
 pyglet==1.3.2
