@@ -1,0 +1,7 @@
+16.3007 	WARNING 	psychopy.parallel has been imported but no parallel port driver found. Install either inpout32, inpoutx64 or dlportio
+16.3090 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+22.6546 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F8325FBEB8>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F83264B898>, multiSample=False, name='window1', numSamples=2, pos=[660.0, 240.0], screen=0, size=array([600, 600]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+22.6546 	EXP 	window1: recordFrameIntervals = False
+22.8203 	EXP 	window1: recordFrameIntervals = True
+23.0041 	EXP 	window1: recordFrameIntervals = False
+23.0146 	EXP 	window1: mouseVisible = True
