@@ -1,2 +1,2 @@
 # PsychoPy Posner Task Experiment
-This is a project created with PsychoPy as part of my Aston University final year project. The code is made to work with a EEG Biopac system and requires a parallel port to send event markers to the EEG. Without such a port and/or drivers the script will fail. You can, however, check the `test_no_event_markers.py` to see how the experiments looks and runs. 
+This is a project created with PsychoPy as part of my Aston University final year project. The code is made to work with a EEG Biopac system and requires a parallel port to send event markers to the EEG. Without such a port and/or drivers the script will fail. You can, however, check the `test_no_event_markers.py` to see how the experiment looks and runs. 
