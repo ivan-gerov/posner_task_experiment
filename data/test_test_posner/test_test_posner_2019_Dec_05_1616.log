@@ -1,6 +1,0 @@
-10.4284 	WARNING 	psychopy.parallel has been imported but no parallel port driver found. Install either inpout32, inpoutx64 or dlportio
-15.9042 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022493EDDE48>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000224940976A0>, multiSample=False, name='window1', numSamples=2, pos=[660.0, 240.0], screen=0, size=array([600, 600]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
-15.9042 	EXP 	window1: recordFrameIntervals = False
-16.0705 	EXP 	window1: recordFrameIntervals = True
-16.2539 	EXP 	window1: recordFrameIntervals = False
-16.4228 	EXP 	window1: mouseVisible = True
