@@ -32,10 +32,11 @@ from psychopy.hardware import keyboard
 ### Start of Custom Functions ###
 
 # Ensure that relative paths start from the same directory as this script
-_thisDir = os.path.dirname(os.path.abspath(__file__))
-os.chdir(_thisDir)
 
-_thisDir = os.path.relpath(_thisDir)
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+print(os.getcwd())
+os.chdir('..')
+_thisDir = os.path.relpath(os.getcwd())
 
 # Seting the Posner task repetitions and time per one attention task block
 # 22 sec is the lowest the system can do due to the distribution of valid to invalid cues (One loop in the attention block is 8 reps of the Posner task, i.e. 6 valid 2 invalid cues)
